@@ -1,85 +1,35 @@
-✨ Microservicios con Spring Boot + React (Vite & Tailwind)
+🚀 Sistema de Microservicios - Spring Boot + React
+Sistema completo de microservicios desarrollado con Spring Boot (backend) y React + Vite (frontend) para la gestión de productos y categorías.
+📋 Arquitectura
+Frontend (React + Vite)
+         ↓
+    Puerto 5173
+         ↓
+Eureka Server (8761)
+         ↓
+    ┌────┴────┐
+    ↓         ↓
+Categoria   Producto
+Service     Service
+(8081)      (8082)
 
-Sistema completo de gestión de Productos y Categorías desarrollado con arquitectura de microservicios, Spring Cloud, Eureka, Feign y React + Vite para el frontend.
-Ideal para prácticas profesionales, exámenes o portafolio.
+🛠️ Tecnologías Utilizadas
+Backend
 
-🏗️ Arquitectura del Proyecto
-📦 microservicios-spring-boot
-│
-├── 🖥️ backend/
-│   ├── 🌐 api-gateway/          → Punto único de entrada (opcional)
-│   ├── 📚 categoria-service/     → Microservicio de categorías
-│   ├── 🛒 producto-service/      → Microservicio de productos
-│   └── 🔍 eureka-server/         → Service Discovery
-│
-├── 🎨 frontend/                  → Aplicación React + Vite + Tailwind + Axios
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── 📄 README.md
-
-🚀 Tecnologías Utilizadas
-🖥️ Backend (Microservicios)
-
-Spring Boot 3
-
-Spring Cloud Netflix Eureka
-
-Spring Web
-
+Java 17
+Spring Boot 3.5.7
+Spring Cloud 2025.0.0
+Eureka Server (Service Discovery)
+Feign Client (Comunicación entre microservicios)
 Spring Data JPA
-
-Feign Client
-
 MySQL
-
 Maven
 
-🎨 Frontend (SPA)
+Frontend
 
-React + Vite
-
+React 18
+Vite
 Tailwind CSS
-
-Axios
-
 Framer Motion
-
-Lucide React (iconos)
-
-🛠️ Herramientas
-
-IntelliJ IDEA
-
-Visual Studio Code
-
-Postman
-
-Git & GitHub
-
-🔍 Características Principales
-🧩 Microservicios Independientes
-
-✔ Cada servicio tiene su propia base de datos
-✔ CRUD completo de Categorías y Productos
-✔ Desacoplamiento entre servicios
-
-🔗 Comunicación entre Servicios
-
-✔ Implementación con Feign Client
-✔ Producto-Service consulta categorías a través de Categoria-Service
-
-📡 Descubrimiento de Servicios
-
-✔ Eureka Server administra el registro dinámico de microservicios
-✔ Evita direcciones estáticas
-✔ Escalable y organizado
-
-🎨 Frontend Moderno con React
-
-✔ Interfaz bonita y responsiva
-✔ CRUD completo
-✔ Validaciones en tiempo real
-✔ Modals, toasts y animaciones
-✔ Comunicación vía Axios
+Axios
+Lucide React Icons
