@@ -210,17 +210,11 @@ Este proyecto fue desarrollado con fines académicos para el curso de Desarrollo
 
 ## 👨‍💻 Autor
 
-**Coello Palomino, Ricardo**
+**Ticona Mayela**
 
-Curso: Desarrollo de Aplicaciones Web - Sección A B C D
+Curso: Desarrollo de Aplicaciones Web 
 
 ## 📄 Licencia
 
 Este proyecto es de uso académico.
 
-## 📚 Documentación Adicional
-
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-- [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix)
-- [React Documentation](https://react.dev)
-- [Vite Documentation](https://vitejs.dev)
